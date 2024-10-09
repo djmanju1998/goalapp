@@ -1,5 +1,6 @@
 {
   "expo": {
+    "entrypoint": "App.js",
     "name": "my-react-native-project",
     "slug": "my-react-native-project",
     "version": "1.0.0",
@@ -19,7 +20,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.djmanju1999.myreactnativeproject"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,11 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b3d8a1c6-5534-49d2-8b52-0bf34900c12d"
+      }
     }
   }
 }
